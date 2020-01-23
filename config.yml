@@ -1,0 +1,27 @@
+logging:
+  level: INFO
+  loggers:
+    com.aphiwe.jdbi: DEBUG
+database:
+  driverClass: com.mysql.cj.jdbc.Driver
+  url:  jdbc:mysql://localhost:3306/StudentDB
+  user: root
+  password: password@123
+
+  properties:
+    charSet: UTF-8
+  maxWaitForConnection: 1s
+
+
+  validationQuery: "SELECT 1"
+
+  validationQueryTimeout: 3s
+  minSize: 8
+  maxSize: 32
+
+  checkConnectionWhileIdle: false
+
+  evictionInterval: 10s
+
+  minIdleTime: 1 minute
+
