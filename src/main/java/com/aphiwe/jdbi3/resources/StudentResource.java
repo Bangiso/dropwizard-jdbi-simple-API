@@ -5,6 +5,7 @@ import com.codahale.metrics.annotation.Timed;
 import javax.validation.Valid;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 import java.util.List;
 
 @Path("/students")
@@ -37,27 +38,26 @@ public class StudentResource {
     @POST
     @Path("/add")
     @Timed
-    public Student add(@Valid Student student) {
-        studentDAO.insert(student);
+    public int add(@Valid Student student){
 
-        return student;
-    }
+        studentDAO.insert(student);
+        return 200;}
+
 
     @PUT
     @Path("/edit/{id}")
     @Timed
     public Student update(@PathParam("id") Integer id, @Valid Student student) {
         Student updateStudent = new Student(id, student.getName(),student.getGpa());
-
         studentDAO.update(updateStudent);
-
         return updateStudent;
     }
 
     @DELETE
     @Path("/delete/{id}")
     @Timed
-    public void delete(@PathParam("id") Integer id) {
+    public String delete(@PathParam("id") Integer id) {
         studentDAO.deleteById(id);
+        return "DELETE_WAS_SUCCESS";
     }
 }
