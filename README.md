@@ -10,25 +10,25 @@ How to start the StudentRecordJB application
 Exposed endpoints
 ---
 
-    POST `/students/add`
+    POST /students/add
 
-    GET `/students/all`
+    GET /students/all
 
-    DELETE `/students/delete/{id}`
+    DELETE /students/delete/{id}
 
-    PUT `/students/edit/{id}`
+    PUT /students/edit/{id}
 
-    GET `/students/getByID`
+    GET /students/getByID
 
 
 Data in JSON format
 ---
 
-`{
+{
     
     "id": 5,
 
     "name": "Aphiwe",
 
     "gpa": 22.0
-}`
+}
