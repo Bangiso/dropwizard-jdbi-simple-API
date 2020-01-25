@@ -138,5 +138,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.glassfish.jersey.test-framework:jersey-test-framework-core:2.29.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: jakarta.servlet:jakarta.servlet-api:4.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-client:2.29.1" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.common:injector:3.2.5" level="project" />
+    <orderEntry type="library" name="Maven: com.speedment.common:logger:3.2.5" level="project" />
   </component>
 </module>

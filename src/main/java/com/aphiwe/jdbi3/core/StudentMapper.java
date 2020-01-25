@@ -1,4 +1,5 @@
 package com.aphiwe.jdbi3.core;
+import com.aphiwe.jdbi3.api.Student;
 import org.skife.jdbi.v2.StatementContext;
 import org.skife.jdbi.v2.tweak.ResultSetMapper;
 import java.sql.ResultSet;

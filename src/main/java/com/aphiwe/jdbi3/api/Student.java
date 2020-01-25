@@ -1,4 +1,4 @@
-package com.aphiwe.jdbi3.core;
+package com.aphiwe.jdbi3.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

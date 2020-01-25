@@ -4,10 +4,14 @@
     <list default="true" id="f88c58a9-aad2-41ba-acf5-2e60fe78d597" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentRecordJB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentRecordJB.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/StudentRecordJBApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/StudentRecordJBApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/api/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/db/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/db/StudentDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/resources/StudentResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/resources/StudentResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aphiwe/jdbi3/core/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aphiwe/jdbi3/core/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aphiwe/jdbi3/resources/StudentResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aphiwe/jdbi3/resources/StudentResourceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/StudentRecordJB-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/StudentRecordJB-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/StudentRecordJB-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/StudentRecordJB-1.0-SNAPSHOT-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/StudentRecordJB-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/StudentRecordJB-1.0-SNAPSHOT.jar" afterDir="false" />
@@ -17,9 +21,7 @@
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/StudentRecordJBConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/StudentRecordJBConfiguration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/class-use/StudentRecordJBApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/class-use/StudentRecordJBApplication.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/class-use/StudentRecordJBConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/class-use/StudentRecordJBConfiguration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/Student.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/Student.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/StudentMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/StudentMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/class-use/Student.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/class-use/Student.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/class-use/StudentMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/class-use/StudentMapper.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/package-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/package-summary.html" afterDir="false" />
@@ -49,10 +51,18 @@
       <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/core/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/core/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/StudentRecordJBApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/StudentRecordJBApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/core/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/core/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/core/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/db/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/db/StudentDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/resources/StudentResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/resources/StudentResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/original-StudentRecordJB-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-StudentRecordJB-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aphiwe/jdbi3/core/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aphiwe/jdbi3/core/StudentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aphiwe/jdbi3/resources/StudentResourceTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aphiwe/jdbi3/resources/StudentResourceTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aphiwe/jdbi3/resources/StudentResourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aphiwe/jdbi3/resources/StudentResourceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,7 +77,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/db/StudentDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -91,14 +101,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+            <state relative-caret-position="264">
+              <caret line="105" column="30" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/StudentMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" selection-start-line="1" selection-start-column="7" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/StudentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/api/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
               <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
@@ -112,9 +152,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/StudentRecordJBApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/aphiwe/jdbi3/core/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="171">
               <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -124,54 +176,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/fixtures/student.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/resources/StudentResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="50" selection-start-line="50" selection-end-line="51" />
+            <state relative-caret-position="200">
+              <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar!/org/eclipse/jetty/util/thread/strategy/EatWhatYouKill.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/aphiwe/jdbi3/resources/StudentResourceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="-578">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1373#1374#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/StudentRecordJBConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -181,8 +209,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -199,19 +227,20 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/api/Representation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/studentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/StudentRecordJBApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/StudentRecordJBConfiguration.java" />
         <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/db/StudentDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/StudentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/health/StudentRecordJBApplicationHealthChec.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/fixtures/student.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/Student.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/aphiwe/jdbi3/db/StudentDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/aphiwe/jdbi3/core/StudentTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/StudentRecordJBApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/resources/StudentResource.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/aphiwe/jdbi3/resources/StudentResourceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/aphiwe/jdbi3/core/StudentTest.java" />
       </list>
     </option>
   </component>
@@ -270,6 +299,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jdbi3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentRecordJB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentRecordJB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbi3" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StudentRecordJB" type="b2602c69:ProjectViewProjectNode" />
@@ -354,13 +392,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Turfsport/maintenance-search-node/pom.xml" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.aphiwe.jdbi3.db" />
       <recent name="com.aphiwe.jdbi3.core" />
       <recent name="com.aphiwe.jdbi3.resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.aphiwe.jdbi3.api" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -378,8 +419,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest">
-    <configuration name="StudentResourceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StudentResourceTest.testGetStudent">
+    <configuration name="StudentResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentRecordJB" />
       <extension name="coverage">
         <pattern>
@@ -389,7 +430,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.aphiwe.jdbi3.resources" />
       <option name="MAIN_CLASS_NAME" value="com.aphiwe.jdbi3.resources.StudentResourceTest" />
-      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentResourceTest.testDeleteStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentRecordJB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aphiwe.jdbi3.resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aphiwe.jdbi3.resources" />
+      <option name="MAIN_CLASS_NAME" value="com.aphiwe.jdbi3.resources.StudentResourceTest" />
+      <option name="METHOD_NAME" value="testDeleteStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -427,32 +483,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentResourceTest.testUpdateStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentRecordJB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aphiwe.jdbi3.core.*" />
+          <option name="PATTERN" value="com.aphiwe.jdbi3.resources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aphiwe.jdbi3.core" />
-      <option name="MAIN_CLASS_NAME" value="com.aphiwe.jdbi3.core.StudentTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentTest.serializesToJSON" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentRecordJB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aphiwe.jdbi3.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aphiwe.jdbi3.core" />
-      <option name="MAIN_CLASS_NAME" value="com.aphiwe.jdbi3.core.StudentTest" />
-      <option name="METHOD_NAME" value="serializesToJSON" />
+      <option name="PACKAGE_NAME" value="com.aphiwe.jdbi3.resources" />
+      <option name="MAIN_CLASS_NAME" value="com.aphiwe.jdbi3.resources.StudentResourceTest" />
+      <option name="METHOD_NAME" value="testUpdateStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -460,11 +501,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentTest" />
-        <item itemvalue="JUnit.StudentResourceTest.testFindAll" />
-        <item itemvalue="JUnit.StudentResourceTest.testInsertStudent" />
         <item itemvalue="JUnit.StudentResourceTest.testGetStudent" />
-        <item itemvalue="JUnit.StudentTest.serializesToJSON" />
+        <item itemvalue="JUnit.StudentResourceTest" />
+        <item itemvalue="JUnit.StudentResourceTest.testDeleteStudent" />
+        <item itemvalue="JUnit.StudentResourceTest.testUpdateStudent" />
+        <item itemvalue="JUnit.StudentResourceTest.testInsertStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -482,35 +523,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentResourceTest_testGetStudent - 2020.01.25 at 10h 24m 33s.xml">
+    <history-entry file="StudentResourceTest_testUpdateStudent - 2020.01.25 at 17h 09m 25s.xml">
+      <configuration name="StudentResourceTest.testUpdateStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentResourceTest_testUpdateStudent - 2020.01.25 at 17h 10m 03s.xml">
+      <configuration name="StudentResourceTest.testUpdateStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentResourceTest_testDeleteStudent - 2020.01.25 at 17h 16m 32s.xml">
+      <configuration name="StudentResourceTest.testDeleteStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentResourceTest_testDeleteStudent - 2020.01.25 at 17h 20m 59s.xml">
+      <configuration name="StudentResourceTest.testDeleteStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentResourceTest_testDeleteStudent - 2020.01.25 at 17h 25m 12s.xml">
+      <configuration name="StudentResourceTest.testDeleteStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentResourceTest_testDeleteStudent - 2020.01.25 at 17h 26m 11s.xml">
+      <configuration name="StudentResourceTest.testDeleteStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentResourceTest_testDeleteStudent - 2020.01.25 at 17h 26m 59s.xml">
+      <configuration name="StudentResourceTest.testDeleteStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentResourceTest - 2020.01.25 at 17h 27m 39s.xml">
+      <configuration name="StudentResourceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentResourceTest_testGetStudent - 2020.01.25 at 17h 29m 33s.xml">
       <configuration name="StudentResourceTest.testGetStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentResourceTest_testGetStudent - 2020.01.25 at 10h 26m 37s.xml">
+    <history-entry file="StudentResourceTest_testGetStudent - 2020.01.25 at 17h 30m 32s.xml">
       <configuration name="StudentResourceTest.testGetStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentResourceTest_testInsertStudent - 2020.01.25 at 11h 01m 23s.xml">
-      <configuration name="StudentResourceTest.testInsertStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentResourceTest_testInsertStudent - 2020.01.25 at 11h 06m 43s.xml">
-      <configuration name="StudentResourceTest.testInsertStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentResourceTest_testGetStudent - 2020.01.25 at 11h 11m 24s.xml">
-      <configuration name="StudentResourceTest.testGetStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentResourceTest_testFindAll - 2020.01.25 at 11h 16m 03s.xml">
-      <configuration name="StudentResourceTest.testFindAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentResourceTest_testFindAll - 2020.01.25 at 11h 38m 17s.xml">
-      <configuration name="StudentResourceTest.testFindAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentResourceTest_testInsertStudent - 2020.01.25 at 11h 46m 05s.xml">
-      <configuration name="StudentResourceTest.testInsertStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentResourceTest_testFindAll - 2020.01.25 at 11h 47m 03s.xml">
-      <configuration name="StudentResourceTest.testFindAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest - 2020.01.25 at 12h 15m 31s.xml">
-      <configuration name="StudentTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -521,16 +562,16 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.23463687" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22665602" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.9478827" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.6237785" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3583062" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.47557002" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.6058632" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -541,7 +582,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" visible="true" weight="0.03830806" />
+      <window_info anchor="right" id="Ant Build" order="7" visible="true" weight="0.02952913" />
     </layout>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -560,29 +601,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/api/Representation.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/StudentService.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.29.1/jersey-server-2.29.1.jar!/org/glassfish/jersey/server/internal/JsonWithPaddingInterceptor.class">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" selection-start-line="5" selection-start-column="27" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/StudentRecordJBApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/StudentRecordJBConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -606,7 +626,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/fixtures/student.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -627,31 +647,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/resources/StudentResource.java">
+    <entry file="file://$PROJECT_DIR$/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="50" selection-start-line="50" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/aphiwe/jdbi3/resources/StudentResourceTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="105" column="30" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/aphiwe/jdbi3/core/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="171">
           <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -659,7 +671,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/api/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
@@ -671,17 +683,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="291">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -691,6 +705,51 @@
           <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/core/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="1" selection-start-column="7" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/StudentRecordJBApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/resources/StudentResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/aphiwe/jdbi3/resources/StudentResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
           </folding>
         </state>
       </provider>

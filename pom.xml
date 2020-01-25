@@ -102,6 +102,11 @@
             <version>${dropwizard.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.speedment.common</groupId>
+            <artifactId>injector</artifactId>
+            <version>3.2.5</version>
+        </dependency>
     </dependencies>
 
     <build>

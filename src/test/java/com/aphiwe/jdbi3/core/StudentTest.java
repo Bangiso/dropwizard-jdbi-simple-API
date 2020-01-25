@@ -1,12 +1,12 @@
 package com.aphiwe.jdbi3.core;
 
+import com.aphiwe.jdbi3.api.Student;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.dropwizard.jackson.Jackson;
 import org.junit.jupiter.api.Test;
 
 import static io.dropwizard.testing.FixtureHelpers.fixture;
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class StudentTest {
     private static final ObjectMapper MAPPER = Jackson.newObjectMapper();

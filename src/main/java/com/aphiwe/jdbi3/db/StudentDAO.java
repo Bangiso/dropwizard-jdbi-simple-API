@@ -1,7 +1,7 @@
 package com.aphiwe.jdbi3.db;
 import com.aphiwe.jdbi3.core.StudentMapper;
 import java.util.List;
-import com.aphiwe.jdbi3.core.Student;
+import com.aphiwe.jdbi3.api.Student;
 import org.skife.jdbi.v2.sqlobject.*;
 import org.skife.jdbi.v2.sqlobject.customizers.RegisterMapper;
 @RegisterMapper(StudentMapper.class)
