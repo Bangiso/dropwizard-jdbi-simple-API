@@ -1,7 +1,6 @@
 package com.aphiwe.jdbi3.resources;
 import com.aphiwe.jdbi3.api.Student;;
 import com.aphiwe.jdbi3.core.StudentService;
-import com.aphiwe.jdbi3.db.StudentDAO;
 import com.codahale.metrics.annotation.Timed;
 
 import javax.annotation.security.RolesAllowed;

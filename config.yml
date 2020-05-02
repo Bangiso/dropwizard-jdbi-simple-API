@@ -1,7 +1,7 @@
 logging:
   level: INFO
   loggers:
-    com.aphiwe.jdbi: DEBUG
+    com.aphiwe.jdbi3: DEBUG
 database:
   driverClass: com.mysql.cj.jdbc.Driver
   url:  jdbc:mysql://localhost:3306/StudentDB
@@ -24,4 +24,14 @@ database:
   evictionInterval: 10s
 
   minIdleTime: 1 minute
+server:
+  maxThreads: 512
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
+  rootPath: /api/*
+
 
