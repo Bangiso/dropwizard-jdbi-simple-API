@@ -2,74 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f88c58a9-aad2-41ba-acf5-2e60fe78d597" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_speedment_common_injector_3_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_speedment_common_logger_3_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentRecordJB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentRecordJB.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/resources/StudentResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/resources/StudentResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/StudentRecordJB-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/StudentRecordJB-1.0-SNAPSHOT-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/StudentRecordJB-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/StudentRecordJBApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/StudentRecordJBApplication.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/StudentRecordJBConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/StudentRecordJBConfiguration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/api/Student.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/api/Student.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/api/class-use/Student.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/api/class-use/Student.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/api/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/api/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/api/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/api/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/api/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/api/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/api/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/api/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/class-use/StudentRecordJBApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/class-use/StudentRecordJBApplication.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/class-use/StudentRecordJBConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/class-use/StudentRecordJBConfiguration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/Student.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/StudentMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/StudentMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/StudentService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/StudentService.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/class-use/Student.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/class-use/StudentMapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/class-use/StudentMapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/class-use/StudentService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/class-use/StudentService.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/core/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/db/StudentDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/db/StudentDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/db/class-use/StudentDAO.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/db/class-use/StudentDAO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/db/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/db/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/db/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/db/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/db/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/db/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/db/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/db/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/resources/StudentResource.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/resources/StudentResource.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/resources/class-use/StudentResource.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/resources/class-use/StudentResource.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/resources/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/resources/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/resources/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/resources/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/resources/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/resources/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/resources/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/aphiwe/jdbi3/resources/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/StudentRecordJB.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/api/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/api/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/resources/StudentResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aphiwe/jdbi3/resources/StudentResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-StudentRecordJB-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.aphiwe.jdbi3.resources.StudentResourceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.aphiwe.jdbi3.resources.StudentResourceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.aphiwe.jdbi3.resources.StudentResourceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.aphiwe.jdbi3.resources.StudentResourceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/StudentRecordJB.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aphiwe/jdbi3/core/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aphiwe/jdbi3/core/StudentTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_smoketurner_dropwizard_swagger_1_0_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_assets_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_auth_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_views_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_views_freemarker_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_core_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_jaxrs_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_jersey2_jaxrs_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_multipart_2_29_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/StudentRecordJB-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/StudentRecordJB-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/StudentRecordJB.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/original-StudentRecordJB.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -105,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="-163">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -126,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -230,8 +183,8 @@
         <option value="$PROJECT_DIR$/docker/dockerfile" />
         <option value="$PROJECT_DIR$/docker/Dockerfile" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/config.yml" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -706,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aphiwe/jdbi3/api/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23">
@@ -725,8 +671,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="-163">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
