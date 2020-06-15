@@ -23,4 +23,5 @@ public class StudentRecordJBConfiguration extends Configuration {
     public DataSourceFactory getDataSourceFactory() {
         return database;
     }
+
 }
