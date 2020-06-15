@@ -1,5 +1,5 @@
 package com.aphiwe.jdbi3.resources;
-import com.aphiwe.jdbi3.api.Student;;
+import com.aphiwe.jdbi3.api.Student;
 import com.aphiwe.jdbi3.core.StudentService;
 import com.codahale.metrics.annotation.Timed;
 
@@ -8,6 +8,8 @@ import javax.validation.Valid;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
+
+;
 
 @Path("/students")
 @Consumes({MediaType.APPLICATION_JSON})
@@ -34,7 +36,7 @@ public class StudentResource {
     @Path("/getByID/{id}")
     @Timed
     public Student get(@PathParam("id") Integer id){
-        return studentService.findStudent(id);
+        return studentService.findStudent(id).orElse(null);
     }
 
     @POST

@@ -1,19 +1,21 @@
 package com.aphiwe.jdbi3.resources;
-import static org.assertj.core.api.Assertions.assertThat;
-
 import com.aphiwe.jdbi3.api.Student;
 import com.aphiwe.jdbi3.core.StudentService;
 import io.dropwizard.testing.junit.ResourceTestRule;
-import org.junit.Rule;
-import org.junit.Before;
 import org.junit.After;
+import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
+
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertNotNull;
 import static org.mockito.Mockito.*;
 
@@ -32,7 +34,7 @@ public class StudentResourceTest {
         when(dao.getAll()).thenReturn(students);
         when(dao.addStudent(any(Student.class))).thenReturn(200);
         when(dao.deleteStudent(eq(1))).thenReturn(200);
-        when(dao.findStudent(eq(1))).thenReturn(student);
+        when(dao.findStudent(eq(1))).thenReturn(Optional.ofNullable(student));
     }
 
     @After

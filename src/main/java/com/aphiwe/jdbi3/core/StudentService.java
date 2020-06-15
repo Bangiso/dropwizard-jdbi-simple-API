@@ -5,6 +5,7 @@ import com.aphiwe.jdbi3.db.StudentDAO;
 import org.skife.jdbi.v2.sqlobject.CreateSqlObject;
 
 import java.util.List;
+import java.util.Optional;
 
 public abstract class StudentService {
     @CreateSqlObject
@@ -12,8 +13,8 @@ public abstract class StudentService {
     public List<Student> getAll(){
         return studentDAO().getAll();
     }
-    public Student findStudent(int id){
-        return studentDAO().findById(id);
+    public Optional<Student> findStudent(int id){
+        return Optional.ofNullable(studentDAO().findById(id));
     }
     public int deleteStudent(int id){
         return studentDAO().deleteById(id);

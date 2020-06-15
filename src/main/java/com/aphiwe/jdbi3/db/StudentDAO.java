@@ -1,9 +1,13 @@
 package com.aphiwe.jdbi3.db;
-import com.aphiwe.jdbi3.core.StudentMapper;
-import java.util.List;
 import com.aphiwe.jdbi3.api.Student;
-import org.skife.jdbi.v2.sqlobject.*;
+import com.aphiwe.jdbi3.core.StudentMapper;
+import org.skife.jdbi.v2.sqlobject.Bind;
+import org.skife.jdbi.v2.sqlobject.BindBean;
+import org.skife.jdbi.v2.sqlobject.SqlQuery;
+import org.skife.jdbi.v2.sqlobject.SqlUpdate;
 import org.skife.jdbi.v2.sqlobject.customizers.RegisterMapper;
+
+import java.util.List;
 @RegisterMapper(StudentMapper.class)
 public interface StudentDAO {
     @SqlQuery("select * from STUDENT;")

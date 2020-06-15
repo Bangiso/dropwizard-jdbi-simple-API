@@ -1,8 +1,3 @@
 com/aphiwe/jdbi3/api/Student.class
 com/aphiwe/jdbi3/core/StudentService.class
-com/aphiwe/jdbi3/StudentRecordJBApplication.class
-com/aphiwe/jdbi3/StudentRecordJBConfiguration.class
-com/aphiwe/jdbi3/resources/StudentResource.class
 com/aphiwe/jdbi3/db/StudentDAO.class
-com/aphiwe/jdbi3/core/StudentMapper.class
-com/aphiwe/jdbi3/StudentRecordJBApplication$1.class
