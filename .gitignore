@@ -1,0 +1,7 @@
+.idea
+StudentRecordJB.iml
+target/
+*.log
+*.iws
+*.iml
+*.ipr
