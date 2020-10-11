@@ -1,4 +1,5 @@
 package com.aphiwe.jdbi3.resources;
+
 import com.aphiwe.jdbi3.api.Student;
 import com.aphiwe.jdbi3.core.StudentService;
 import io.dropwizard.testing.junit.ResourceTestRule;
@@ -16,21 +17,22 @@ import java.util.List;
 import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.Assert.assertNotNull;
+import static org.hibernate.validator.internal.util.Contracts.assertNotNull;
 import static org.mockito.Mockito.*;
 
 public class StudentResourceTest {
     private static final StudentService dao = mock(StudentService.class);
     @Rule
-    public  ResourceTestRule resources = ResourceTestRule.builder()
+    public ResourceTestRule resources = ResourceTestRule.builder()
             .addResource(new StudentResource(dao))
             .build();
     static Student student;
-    static  List<Student> students;
+    static List<Student> students;
+
     @Before
     public void setup() {
-        student = new Student(1,"John Smith",85);
-        students= Collections.singletonList(student);
+        student = new Student(1, "John Smith", 85);
+        students = Collections.singletonList(student);
         when(dao.getAll()).thenReturn(students);
         when(dao.addStudent(any(Student.class))).thenReturn(200);
         when(dao.deleteStudent(eq(1))).thenReturn(200);
@@ -38,13 +40,13 @@ public class StudentResourceTest {
     }
 
     @After
-    public void tearDown(){
+    public void tearDown() {
         reset(dao);
     }
 
     @Test
     public void testGetStudent() {
-        Student newStudent=resources.target("/students/getByID/1").request().get(Student.class);
+        Student newStudent = resources.target("/students/getByID/1").request().get(Student.class);
         assertThat(newStudent.getName())
                 .isEqualTo(student.getName());
         assertThat(newStudent.getId())
@@ -53,36 +55,45 @@ public class StudentResourceTest {
                 .isEqualTo(student.getGpa());
         verify(dao).findStudent(1);
     }
+
     @Test
-    public void testInsertStudent(){
-        Response response= resources.target("/students/add").request()
+    public void testInsertStudentNotUpdateStudentIfExist() {
+        Response response = resources.target("/students/add").request()
                 .post(Entity.entity(student, MediaType.APPLICATION_JSON_TYPE));
-        System.out.println(response);
         assertThat(response.getStatus()).isEqualTo(200);
-        verify(dao).addStudent(any(Student.class));
     }
+
     @Test
-    public void testFindAll(){
+    public void testInsertStudent() {
+        Response response = resources.target("/students/add").request()
+                .post(Entity.entity(new Student(3, "Foo", 55), MediaType.APPLICATION_JSON_TYPE));
+        assertThat(response.getStatus()).isEqualTo(202);
+        verify(dao).addStudent(any(Student.class));
+
+    }
+
+    @Test
+    public void testFindAll() {
         final List<Student> response = resources.target("/students/all")
-                .request().get(new GenericType<List<Student>>() {});
+                .request().get(new GenericType<List<Student>>() {
+                });
         verify(dao).getAll();
         assertThat(response).containsAll(students);
     }
+
     @Test
-    public void testUpdateStudent(){
-        Student updatedStudent= resources.target("/students/edit/1").request()
-                .put(Entity.entity(student, MediaType.APPLICATION_JSON_TYPE), Student.class);
+    public void testUpdateStudent() {
+        Response updatedStudent = resources.target("/students/edit/1").request()
+                .put(Entity.entity(student, MediaType.APPLICATION_JSON_TYPE));
         assertNotNull(updatedStudent);
-        assertThat(updatedStudent.getId()).isEqualTo(student.getId());
-        assertThat(updatedStudent.getName()).isEqualTo(student.getName());
-        assertThat(updatedStudent.getGpa()).isEqualTo(student.getGpa());
-        verify(dao).updateStudent(any(Student.class));
+        assertThat(updatedStudent.getStatus()).isEqualTo(202);
+        verify(dao).updateStudent(student);
     }
+
     @Test
-    public void testDeleteStudent(){
-        Response response=resources.target("/students/delete/1").request().delete();
-        System.out.println(response);
-        assertThat(response.getStatus()).isEqualTo(200);
+    public void testDeleteStudent() {
+        Response response = resources.target("/students/delete/1").request().delete();
+        assertThat(response.getStatus()).isEqualTo(202);
         verify(dao).deleteStudent(1);
     }
 }
